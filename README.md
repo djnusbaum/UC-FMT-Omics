@@ -11,4 +11,4 @@ The .R files are divided as follows:
 - Metabolomics Analysis (Figure 5)
 - Microbe-Metabolite Correlations (Figure 6)
   
-All of these R scripts were written and used in R (version 3.4.1) using RStudio (version 1.0.147) on Mac OS Sierra. The scripts rely on several R packages which are loaded using 'library(package-name)'. Packages can only be loaded in this manner if they have already been installed (i.e. using 'install.packages("package-name")'.
+All of these R scripts were written and used in R (version 3.4.1) using RStudio (version 1.0.147) on Mac OS Sierra. The scripts rely on several R packages which are loaded using 'library(package-name)'. Packages can only be loaded in this manner if they have already been installed (i.e. using 'install.packages("package-name")').
