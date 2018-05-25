@@ -1,0 +1,14 @@
+name: "uc-fmt-github-page"
+output_dir: "."
+navbar:
+#  title: "Gut microbial and metabolomic profiles after fecal microbiota transplantation in pediatric ulcerative colitis patients"
+  type: inverse
+  left:
+    - text: "Home"
+      href: index.html
+#    - text: "Alpha Diversity"
+#      href: alphadiv.html
+    
+  
+  
+  
