@@ -11,12 +11,13 @@
 
 <meta name="author" content="David Nusbaum" />
 
+<meta name="date" content="2018-03-16" />
 
 <title>Gut microbial and metabolomic profiles after fecal microbiota transplantation in pediatric ulcerative colitis patients</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/sandstone.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -83,6 +84,58 @@ button.code-folding-btn:focus {
 }
 </style>
 
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
 
 
 <div class="container-fluid main-container">
@@ -204,6 +257,29 @@ div.tocify {
 
 
 
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
 <div class="fluid-row" id="section-header">
 
 <div class="btn-group pull-right">
@@ -218,32 +294,33 @@ div.tocify {
 
 <h1 class="title toc-ignore">Gut microbial and metabolomic profiles after fecal microbiota transplantation in pediatric ulcerative colitis patients</h1>
 <h4 class="author"><em>David Nusbaum</em></h4>
+<h4 class="date"><em>March 16, 2018</em></h4>
 
 </div>
 
 
 <div id="section-introduction" class="section level1 sidebar">
 <h1>Introduction</h1>
-<p>library(ggplot2)</p>
-<p>Intro</p>
+<p>This page is an R Markdown document containing all of the R code used to analyze data and create figures for “Gut microbial and metabolomic profiles after fecal microbiota transplantation in pediatric ulcerative colitis patients” (2018).</p>
+<p>All of the files used here for data analysis can be downloaded from the project’s <a href="https://github.com/djnusbaum/UC-FMT-Omics">GitHub repository</a>: * table_even</p>
 </div>
 <div id="section-alpha-diversity" class="section level1">
 <h1>Alpha Diversity</h1>
 <p>Alpha diversity</p>
 <div id="section-s" class="section level2">
-<h2>16S</h2>
+<h2>  16S</h2>
 </div>
 <div id="section-metagenomics" class="section level2">
-<h2>Metagenomics</h2>
+<h2>  Metagenomics</h2>
 </div>
 </div>
 <div id="section-supplementary-figures" class="section level1">
 <h1>Supplementary Figures</h1>
 <div id="section-supplementary-figure-1" class="section level2">
-<h2>Supplementary Figure 1</h2>
+<h2>  Supplementary Figure 1</h2>
 </div>
 <div id="section-supplementary-figure-2" class="section level2">
-<h2>Supplementary Figure 2</h2>
+<h2>  Supplementary Figure 2</h2>
 </div>
 </div>
 

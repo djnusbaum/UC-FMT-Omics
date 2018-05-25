@@ -28,8 +28,9 @@ library(shiny)
 This page is an R Markdown document containing all of the R code used to analyze
 data and create figures for "Gut microbial and metabolomic profiles after fecal microbiota transplantation in pediatric ulcerative colitis patients" (2018).
 
-All of the files used for data analysis for this project can be downloaded in the
-[GitHub repository] (https://github.com/djnusbaum/UC-FMT-Omics).
+All of the files used here for data analysis can be downloaded from the project's
+[GitHub repository](https://github.com/djnusbaum/UC-FMT-Omics):
+* table_even
 
 # Alpha Diversity
 
