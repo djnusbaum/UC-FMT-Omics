@@ -1,8 +1,5 @@
 ---
-title: "Gut microbial and metabolomic profiles after fecal microbiota transplantation in pediatric ulcerative colitis patients"
-author: "David Nusbaum"
-date: March 16, 2018
-# May 24, 2018
+title: "Alpha Diversity"
 output:
   html_document:
     theme: cosmo # “default”, “cerulean”, “journal”, “flatly”, “readable”, “spacelab”, “united”,
@@ -16,6 +13,10 @@ output:
 runtime: shiny
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
 ```{r, echo=FALSE, results="hide", message=FALSE, warning=FALSE}
 library(knitr)
 opts_chunk$set(cache=FALSE, eval=TRUE, message=FALSE, warning=FALSE)
@@ -26,21 +27,4 @@ library(shiny)
 
 ## Introduction {.sidebar}
 
-This page is an R Markdown document containing all of the R code used to analyze
-data and create figures for "Gut microbial and metabolomic profiles after fecal microbiota transplantation in pediatric ulcerative colitis patients" (2018).
-
-All of the files used here for data analysis can be downloaded from the project's
-[GitHub repository](https://github.com/djnusbaum/UC-FMT-Omics){target="_blank"}:
-* table_even
-
-## Alpha Diversity
-
-Alpha diversity
-
-### &ensp; 16S
-
-### &ensp; Metagenomics
-
-## Supplementary Figures
-### &ensp; Supplementary Figure 1
-### &ensp; Supplementary Figure 2
+Test

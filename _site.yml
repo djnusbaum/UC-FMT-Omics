@@ -6,8 +6,8 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-#    - text: "Alpha Diversity"
-#      href: alphadiv.html
+    - text: "Alpha Diversity"
+      href: alphadiv.html
     
   
   
